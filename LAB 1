@@ -1,0 +1,39 @@
+public class Comparator{
+
+	private Comparator() {
+	  
+	}
+	
+	public static int largestNumber(int x, int y) {
+		 if(x>y)
+        return x;
+    else
+        return y;
+		
+	}
+	public static boolean isMultiple(int x, int y) {
+		 if(x%y == 0)
+        return true;
+    else
+        return false;
+		
+	}
+	
+	public static boolean bothDivisibleTen(int x, int y) {
+		  if(x>=10 && y>=10)
+    {
+        if(x%10==0 && y%10==0)
+            return true;
+        else
+            return false;
+    }
+    return false;
+	}
+	public static boolean isOddNumber(int x) {
+	 if(x%2==0)
+        return false;
+    else
+        return true;
+	}
+	
+}

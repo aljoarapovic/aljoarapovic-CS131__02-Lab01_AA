@@ -37,3 +37,54 @@ public class Comparator{
 	}
 	
 }
+
+
+
+
+public class Cat {
+   String breed;
+   int age;
+   String color;
+
+   void meowing() {
+   }
+
+   void thirsty() {
+   }
+
+   void eating() {
+   }
+}
+
+
+public class Kitty {
+   int kittyAge;
+
+   public class Kitty(String name) {
+      System.out.println("Name chosen is :" + name );
+   }
+
+   public void setAge( int age ) {
+      kittyAge = age;
+   }
+
+   public int getAge( ) {
+      System.out.println("Kitty's age is :" + kittyAge );
+      return kittyAge;
+   }
+
+   public static void main(String []args) {
+      Kitty myKitty = new Kitty( "bella" );
+
+      myKitty.setAge( 2 );
+
+      myKitty.getAge( );
+
+      System.out.println("Variable Value :" + myKitty.KittyAge );
+   }
+}
+
+
+
+
+
